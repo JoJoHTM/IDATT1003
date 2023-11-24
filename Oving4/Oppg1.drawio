@@ -1,0 +1,119 @@
+<mxfile host="app.diagrams.net" modified="2023-09-19T12:57:31.080Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31" etag="kCtMbXiSPTTCab8KRFkf" version="21.7.5" type="device">
+  <diagram name="Page-1" id="tR-7fLHR-VdouoxICsj5">
+    <mxGraphModel dx="1002" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zH29Yu5aZc3cHUqCnUNS-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zH29Yu5aZc3cHUqCnUNS-11" target="zH29Yu5aZc3cHUqCnUNS-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zH29Yu5aZc3cHUqCnUNS-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="zH29Yu5aZc3cHUqCnUNS-7" target="zH29Yu5aZc3cHUqCnUNS-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zH29Yu5aZc3cHUqCnUNS-1" value="While-loop&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zH29Yu5aZc3cHUqCnUNS-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zH29Yu5aZc3cHUqCnUNS-3" target="zH29Yu5aZc3cHUqCnUNS-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zH29Yu5aZc3cHUqCnUNS-3" value="Velg valuta" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zH29Yu5aZc3cHUqCnUNS-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zH29Yu5aZc3cHUqCnUNS-5" target="zH29Yu5aZc3cHUqCnUNS-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zH29Yu5aZc3cHUqCnUNS-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zH29Yu5aZc3cHUqCnUNS-5" target="zH29Yu5aZc3cHUqCnUNS-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zH29Yu5aZc3cHUqCnUNS-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zH29Yu5aZc3cHUqCnUNS-5" target="zH29Yu5aZc3cHUqCnUNS-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="570" />
+              <mxPoint x="380" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zH29Yu5aZc3cHUqCnUNS-5" value="if-statement" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zH29Yu5aZc3cHUqCnUNS-7" value="Konverter fra USD til NOK eller motsatt" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zH29Yu5aZc3cHUqCnUNS-9" value="valuta = 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="290" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zH29Yu5aZc3cHUqCnUNS-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zH29Yu5aZc3cHUqCnUNS-1" target="zH29Yu5aZc3cHUqCnUNS-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="270" as="sourcePoint" />
+            <mxPoint x="400" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zH29Yu5aZc3cHUqCnUNS-11" value="Til eller fra NOK" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zH29Yu5aZc3cHUqCnUNS-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zH29Yu5aZc3cHUqCnUNS-25" target="zH29Yu5aZc3cHUqCnUNS-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zH29Yu5aZc3cHUqCnUNS-25" value="Konverter fra euro til NOK eller motsatt" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zH29Yu5aZc3cHUqCnUNS-30" value="valuta = 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="440" y="430" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zH29Yu5aZc3cHUqCnUNS-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zH29Yu5aZc3cHUqCnUNS-31" target="zH29Yu5aZc3cHUqCnUNS-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="615" />
+              <mxPoint x="60" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zH29Yu5aZc3cHUqCnUNS-31" value="Konverter fra svenske kroner til NOK eller motsatt" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zH29Yu5aZc3cHUqCnUNS-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zH29Yu5aZc3cHUqCnUNS-5" target="zH29Yu5aZc3cHUqCnUNS-36" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zH29Yu5aZc3cHUqCnUNS-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zH29Yu5aZc3cHUqCnUNS-36" target="zH29Yu5aZc3cHUqCnUNS-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zH29Yu5aZc3cHUqCnUNS-36" value="Gå ut av while-loopen" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zH29Yu5aZc3cHUqCnUNS-38" value="valuta = 3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="320" y="520" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zH29Yu5aZc3cHUqCnUNS-39" value="valuta = 4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=90;" parent="1" vertex="1">
+          <mxGeometry x="510" y="520" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zH29Yu5aZc3cHUqCnUNS-40" value="Slutt" style="whiteSpace=wrap;html=1;aspect=fixed;shape=endState;perimeter=ellipsePerimeter;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="500" y="710" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zH29Yu5aZc3cHUqCnUNS-47" value="ValutaClass" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="730" width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="zH29Yu5aZc3cHUqCnUNS-48" value="- currency: double&lt;br&gt;- toOrFrom: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="zH29Yu5aZc3cHUqCnUNS-47" vertex="1">
+          <mxGeometry y="26" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="zH29Yu5aZc3cHUqCnUNS-49" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="zH29Yu5aZc3cHUqCnUNS-47" vertex="1">
+          <mxGeometry y="80" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="zH29Yu5aZc3cHUqCnUNS-50" value="+ dollarConversion()&lt;br&gt;+ euroConversion()&lt;br&gt;+ svkConversion()&lt;br&gt;+ setToOrFrom(int answer)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="zH29Yu5aZc3cHUqCnUNS-47" vertex="1">
+          <mxGeometry y="88" width="160" height="92" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

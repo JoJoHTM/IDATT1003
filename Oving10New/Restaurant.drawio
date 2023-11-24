@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" modified="2023-11-11T21:45:41.016Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="sMfOTgnqmKZ1-ucI4_h-" version="22.1.0" type="device">
+  <diagram name="Page-1" id="kW1PZbhBQtz1gzWcmP3c">
+    <mxGraphModel dx="1242" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zmcFWHJPD_n559HxVk8T-1" value="Meny" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="130" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcFWHJPD_n559HxVk8T-2" value="+ rett: List&amp;lt;Rett&amp;gt;&lt;br&gt;&lt;br&gt;+ navn: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="zmcFWHJPD_n559HxVk8T-1">
+          <mxGeometry y="26" width="180" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcFWHJPD_n559HxVk8T-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="zmcFWHJPD_n559HxVk8T-1">
+          <mxGeometry y="80" width="180" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcFWHJPD_n559HxVk8T-4" value="+ getNavn(): String&lt;br&gt;&lt;br&gt;+ getRetter(): List&amp;lt;Rett&amp;gt;&lt;br&gt;&lt;br&gt;+ toString(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="zmcFWHJPD_n559HxVk8T-1">
+          <mxGeometry y="88" width="180" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcFWHJPD_n559HxVk8T-5" value="Rett" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="130" width="160" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcFWHJPD_n559HxVk8T-6" value="+ navn: String&lt;br&gt;&lt;br&gt;+ type: String&lt;br&gt;&lt;br&gt;+ pris: double&lt;br&gt;&lt;br&gt;+ oppskrift: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="zmcFWHJPD_n559HxVk8T-5">
+          <mxGeometry y="26" width="160" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcFWHJPD_n559HxVk8T-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="zmcFWHJPD_n559HxVk8T-5">
+          <mxGeometry y="150" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcFWHJPD_n559HxVk8T-8" value="+ getNavn(): String&lt;br&gt;&lt;br&gt;+ getType(): String&lt;br&gt;&lt;br&gt;+ getPris(): double&lt;br&gt;&lt;br&gt;+ getOppskrift: String&lt;br&gt;&lt;br&gt;+ toString(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="zmcFWHJPD_n559HxVk8T-5">
+          <mxGeometry y="158" width="160" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcFWHJPD_n559HxVk8T-9" value="MenyRegister" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="130" width="320" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcFWHJPD_n559HxVk8T-10" value="+ menyRegister: List&amp;lt;Meny&amp;gt;&lt;br&gt;&lt;br&gt;+rettRegister: List&amp;lt;Rett&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="zmcFWHJPD_n559HxVk8T-9">
+          <mxGeometry y="26" width="320" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcFWHJPD_n559HxVk8T-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="zmcFWHJPD_n559HxVk8T-9">
+          <mxGeometry y="90" width="320" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcFWHJPD_n559HxVk8T-12" value="+ registrerNyRett(List&amp;lt;Rett&amp;gt;)&lt;br&gt;&lt;br&gt;+ finnRettNavn(String): List&amp;lt;Rett&amp;gt;&lt;br&gt;&lt;br&gt;+ finnRettType(String): List &amp;lt;Rett&amp;gt;&lt;br&gt;&lt;br&gt;+ opprettMeny(String, List&amp;lt;String&amp;gt;)&lt;br&gt;&lt;br&gt;+ getMeny(): List&amp;lt;Meny&amp;gt;&lt;br&gt;&lt;br&gt;+ finnMenyInnenforIntervall(double, double): List&amp;lt;String&amp;gt;&lt;br&gt;&lt;br&gt;+ eksistererRett(String): boolean&lt;br&gt;&lt;br&gt;+ toString(): sSring" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="zmcFWHJPD_n559HxVk8T-9">
+          <mxGeometry y="98" width="320" height="232" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
